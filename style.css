@@ -22,3 +22,76 @@
     padding-right: 30px;
     position: relative;
 }
+.body-page .header .app-name .title {
+    font-size: 30px;
+}
+.body-page .header .app-name .setting {
+    background-color: #33691e;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 28px;
+    padding:0 16px;  
+    outline: none;
+}
+.body-page .header .app-name .setting a {
+    display: inline-block;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    line-height: 36px;
+    text-decoration: none;
+}
+.body-page .header .app-name .topic-same a {
+    color: #33691e;
+    font-weight: bold;
+    margin-right: 16px;
+}
+.body-page .img-introduce-app {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 36px;
+    display: flex;
+    overflow: hidden;
+}
+.body-page .img-introduce-app .img {
+    position: relative;
+    width: calc(100% - 80px);
+    white-space: nowrap;
+    overflow: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.body-page .img-introduce-app .img button {
+    border: none;
+    background-color: #fff;
+}
+
+.body-page .img-introduce-app .previous,
+.body-page .img-introduce-app .next {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 100%;
+}
+
+.body-page .img-introduce-app .previous .icon-previous {
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    background-image: url("img/icon-previous.png");
+}
+.body-page .img-introduce-app .next .icon-next {
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    background-image: url("img/icon-next.png");
+}
+.body-page .text-introduce-app {
+    margin: 10px 30px;
+    padding: 20px;
+    font-size: 13px;
+    text-rendering: optimizeLegibility;
+}
