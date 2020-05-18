@@ -1,0 +1,24 @@
+.body-page {
+    margin: 10px auto;
+    width: 800px;
+    font-family: "Roboto", Arial, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.body-page .header {
+    display: flex;
+    height: 244px;
+}
+.body-page .header .logo-app {
+    display: flex;
+    min-width: 230px;
+    height: 100%;
+}
+.body-page .header .logo-app img {
+    display: inline-block;
+    margin: auto;
+}
+.body-page .header .app-name {
+    padding-top: 30px;
+    padding-right: 30px;
+    position: relative;
+}
